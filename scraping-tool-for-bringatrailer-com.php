@@ -22,6 +22,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// Load PHPScraper.
+require __DIR__ . '/vendor/autoload.php';
+
 // Load plugin class files.
 require_once 'includes/class-scraping-tool-for-bringatrailer-com.php';
 require_once 'includes/class-scraping-tool-for-bringatrailer-com-settings.php';
