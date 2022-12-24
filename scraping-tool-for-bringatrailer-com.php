@@ -34,6 +34,9 @@ require_once 'includes/lib/class-scraping-tool-for-bringatrailer-com-admin-api.p
 require_once 'includes/lib/class-scraping-tool-for-bringatrailer-com-post-type.php';
 require_once 'includes/lib/class-scraping-tool-for-bringatrailer-com-taxonomy.php';
 
+// Load functions.
+require_once 'functions.php';
+
 /**
  * Returns the main instance of Scraping_Tool_for_Bringatrailer_com to prevent the need to use globals.
  *
