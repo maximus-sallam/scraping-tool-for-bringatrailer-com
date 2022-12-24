@@ -2,7 +2,8 @@
 
 add_action('admin_menu', 'scraping_menu');
 
-function scraping_menu() {
+function scraping_menu(): void
+{
 
     add_menu_page(
         'Scrape Scrape',
